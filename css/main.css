@@ -1,10 +1,82 @@
 
 
 /* ==========================================================================
-   Author's custom styles
+   Wesley Ferreira dos Santos custom styles
    ========================================================================== */
+@font-face {
+    font-family: 'aldo_mt';
+    src: url('../fonts/abalc/abalc-webfont.eot');
+    src: url('../fonts/abalc/abalc-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/abalc/abalc-webfont.woff') format('woff'),
+         url('../fonts/abalc/abalc-webfont.ttf') format('truetype'),
+         url('../fonts/abalc/abalc-webfont.svg#abalcregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Padrões para usar em todo o site */
+
+.no-padding{
+	padding: 0 !important;
+}
+
+.no-border-radius{
+	border-radius: 0 !important;
+}
+
+/* Fim padrões */
 
 
+
+/* Tamanhos para seguir layout */
+
+@media(min-width: 992px ){ /* para telas medias e grandes(layout padrão) */
+	.topo{
+		width: 992px;
+	}
+}
+
+@media(min-width: 768px){ /* para tablets */
+
+}
+
+@media(max-width: 767px){ /* para celulares e smartphones */
+
+}
+
+/* Fim das sobrescrições para tamnhos */
+
+body{
+	background-color: #DBDBDA;
+}
+.navbar{
+	background: #DBDADA;
+	font-family: 'aldo_mt';
+	font-size: 18px;
+	box-shadow: none;
+}
+.nav *{
+	color: #000;
+}
+.nav>li>a:hover, .nav>li>a:focus{
+	background: inherit !important;
+}
+.jumbotron{
+	background: url(../img/fundo-banner.jpg) center repeat-x;
+	height: 540px;
+	padding: 0;
+	margin: 50px 0 40px 0;
+}
+.carousel {
+	width: 1163px;
+	height: 595px;
+	margin: -30px auto auto auto;
+	position: absolute;
+	left: 50%;
+	margin-left: -581.5px;
+	box-shadow: 0px 13px 33px #5B5B5A;
+}
 
 
 
