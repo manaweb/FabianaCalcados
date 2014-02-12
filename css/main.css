@@ -12,17 +12,37 @@
          url('../fonts/abalc/abalc-webfont.svg#abalcregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
-
+@font-face{
+	font-family: 'bauhaus';
+    src: url('../fonts/bauhaus/itc-bauhaus.eot');
+    src: url('../fonts/bauhaus/itc-bauhaus.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bauhaus/itc-bauhaus.woff') format('woff'),
+         url('../fonts/bauhaus/itc-bauhaus.ttf') format('truetype'),
+         url('../fonts/bauhaus/itc-bauhaus.svg#bauhaus') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 /* Padrões para usar em todo o site */
 
 .no-padding{
 	padding: 0 !important;
 }
+.no-margin{
+	margin: 0;
+}
 
 .no-border-radius{
 	border-radius: 0 !important;
+}
+.fundo-title{
+	background: url(../img/fundo-title.png) center repeat-x;
+	text-align: center;
+}
+.title-section {
+    text-align: center;	
+    background-color: #DBDADA;
+    display: inline;
 }
 
 /* Fim padrões */
@@ -31,21 +51,67 @@
 
 /* Tamanhos para seguir layout */
 
-@media(min-width: 992px ){ /* para telas medias e grandes(layout padrão) */
+@media(min-width: 1163px ){ /* para telas medias e grandes(layout padrão) */
 	.topo{
 		width: 992px;
+	}
+	.title-section {
+	    text-align: center;
+	    background-color: #DBDADA;
+	    display: inline;
+	}
+	.fundo-title{
+		background: url(../img/fundo-title.png) center repeat-x;
+		text-align: center;
+		margin: 15px auto;
+		width: 938px;
+		left: -4px;
+		position: relative;
+	}
+	.fotos-destaque .col-lg-4.hm{
+		width: 270px;
+	}
+	.fotos-destaque .col-lg-4{
+		float: none;
+		display: inline-block;
+		vertical-align: top;
+	}
+	.destaques-controls {
+		text-align: right !important;
+		width: 1035px;
+	}
+	.iframe-face{
+		width: 100%;
 	}
 }
 
 @media(min-width: 768px){ /* para tablets */
-
+	.sociais{
+		margin-top: 20px !important;
+		margin-bottom: 20px !important;
+	}
+	.destaques-controls {
+		text-align: center;
+	}
+	.iframe-face{
+		width: 100%;
+	}
 }
 
 @media(max-width: 767px){ /* para celulares e smartphones */
-
+	.sociais{
+		margin-top: 20px !important;;
+		margin-bottom: 20px !important;
+	}
+	.destaques-controls {
+		text-align: center;
+	}
+	.iframe-face{
+		padding: 0 10px;
+	}
 }
 
-/* Fim das sobrescrições para tamnhos */
+/* Fim das sobrescrições para tamanhos */
 
 body{
 	background-color: #DBDBDA;
@@ -62,6 +128,9 @@ body{
 .nav>li>a:hover, .nav>li>a:focus{
 	background: inherit !important;
 }
+.nav > li {
+    text-align: center;
+}
 .jumbotron{
 	background: url(../img/fundo-banner.jpg) center repeat-x;
 	height: 540px;
@@ -77,18 +146,109 @@ body{
 	margin-left: -581.5px;
 	box-shadow: 0px 13px 33px #5B5B5A;
 }
+.sociais {
+    width: 240px;  
+    height: 284px;  
+    background-color: #000;
+    margin: auto;
+}
+.sociais *{
+	color: #FFF;
+}
+.sociais h3, .sociais .spanSociais{
+	font-family: 'bauhaus';
+	display: block;
+	padding-left: 40px;
+}
+.sociais h3 {
+    margin: 0;
+    font-size: 60px;
+    margin-bottom: -18px;
+}
+.spanSociais {
+    font-size: 40px;
+}
+.sociais p {
+	padding-left: 15px;
+}
+.fundo-face, .fundo-insta{
+	display: inline-block;
+    width: 82px;
+    height: 82px;
+    background-image: url(../img/sociais.png);
+    background-repeat: no-repeat; 
+    margin-top: 15px;
+}
+.fundo-face {
+    background-position: 0px 0px;
+    margin-left: -10px;
+}
+.fundo-insta{
+	background-position: -82px 0px;	
+	margin-left: 15px;
+}
+.fundo-face:hover {
+	background-position: 0px -82px;
+}
+.fundo-insta:hover {
+	background-position: -82px -82px;
+}
+.fotos-destaque{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.fotos-destaque img {
+    margin: 15px auto;
+}
+.control-destaque-left-d .bx-prev, .control-destaque-right-d .bx-next, .control-destaque-left-p .bx-prev, .control-destaque-right-p .bx-next{
+	background: url(../img/controls-destaque.png) no-repeat;
+	display: inline-block;
+	width: 26px;
+	height: 26px;
+	cursor: pointer;
+}
+.control-destaque-left-d .bx-prev, .control-destaque-left-p .bx-prev{
+	background-position: 0px 0px
+}
+.control-destaque-right-d .bx-next, .control-destaque-right-p .bx-next{
+	background-position: -26px 0px
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.bxslider li{
+	display: inline;
+	list-style: none;
+}
+.bx-produtos-1 li, .bx-produtos-2 li{
+	width: 336px;
+	height: 253px;
+	background-color: #000;
+	display: inline-block !important;
+	margin-top: 5px;
+}
+.control-destaque-left-p, .control-destaque-right-p {
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+    overflow: hidden;
+}
+.section.facebook{
+	background: url(../img/fundo-section-facebook.jpg) center no-repeat;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	min-height: 516px;
+	display: table;
+}
+.iframe-face{
+	border: none;
+	background: #FFF;
+	overflow: hidden;
+	max-width: 968px;
+	height: 483px;
+	min-width: 300px;
+	margin: auto;
+}
+.section.facebook .container{
+	display: table-cell;
+	vertical-align: middle;
+}

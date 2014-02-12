@@ -18,6 +18,7 @@
         </style>
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/main.css">
+        <!-- <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css"> -->
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
@@ -85,14 +86,107 @@
         </div>
         <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
           <div class="sociais">
-            <h3>Redes Sociais</h3>
+            <h3>Redes</h3> 
+            <span class="spanSociais">Sociais</span>
             <p>Se conecte à Fabiana Calçados</p>
-            <a href="#facebook" class="fundo-face"></a>
-            <a href="#instagram" class="fundo-insta"></a>
+            <div class="text-center links-sociais">
+              <a href="#facebook" class="fundo-face"></a>
+              <a href="#instagram" class="fundo-insta"></a>
+            </div>
           </div>
         </div>
       </div>
+      <div class="section destaque">
+        <div class="container">
+          <div class="row">
+            <div class="fundo-title">
+              <h3 class="title-section col-lg-12">Destaque da semana</h3>
+            </div>
+          </div>
+          <div class="row fotos-destaque">
+            <ul class="bxslider bx-destaque no-padding">
+              <li>
+                <div class="hm">
+                  <img src="img/teste1d.jpg" class="img-responsive">
+                </div>
+              </li>
+              <li>
+                <div class="wm">
+                  <img src="img/teste2d.jpg" class="img-responsive">
+                </div>
+              </li>
+              <li>
+                <div class="hm">
+                  <img src="img/teste3d.jpg" class="img-responsive">
+                </div>
+              </li>
+              <li>
+                <div class="hm">
+                  <img src="img/teste1d.jpg" class="img-responsive">
+                </div>
+              </li>
+              <li>
+                <div class="wm">
+                  <img src="img/teste2d.jpg" class="img-responsive">
+                </div>
+              </li>
+              <li>
+                <div class="hm">
+                  <img src="img/teste3d.jpg" class="img-responsive">
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="row">
+            <div class="col-lg-12 destaques-controls outside">
+              <span class="control-destaque-left-d"></span>
+              <span class="control-destaque-right-d"></span>
+            </div>
+          </div>
+        </div> <!-- /container -->
+      </div> <!-- /section destaque -->
 
+      <div class="section produtos">
+        <div class="container">
+          <div class="row">
+            <div class="fundo-title">
+              <h3 class="title-section col-lg-12">Destaque da semana</h3>
+            </div>
+          </div>
+          <div class="row fotos-destaque">
+            <ul class="bx-slider bx-produtos-1 no-padding" id="bx-produtos-1">
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+            <ul class="bx-slider bx-produtos-2 no-padding" id="bx-produtos-2">
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="row">
+            <div class="col-lg-12 destaques-controls outside">
+              <span class="control-destaque-left-p"></span>
+              <span class="control-destaque-right-p"></span>
+            </div>
+          </div>
+        </div> <!-- /container -->
+      </div> <!-- /section produtos -->
+
+      <div class="section facebook">
+        <div class="container">
+          <div class="row text-center">
+            <iframe class="center-block img-responsive iframe-face" src="https://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Ffabianacalcados&amp;width=968&amp;height=483&amp;colorscheme=light&amp;show_faces=true&amp;header=false&amp;stream=true&amp;show_border=false" scrolling="no" frameborder="0" allowTransparency="false"></iframe>
+          </div>
+        </div> <!-- /container -->
+      </div> <!-- /section produtos -->
       <hr>
 
       <footer>
@@ -105,6 +199,49 @@
 
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+        <script src="js/jquery.bxslider.min.js"></script>
+        <script>
+          $(function(){
+            $('.bx-destaque').bxSlider({
+              minSlides: 1,
+              maxSlides: 3,
+              slideWidth: 360,
+              slideMargin: 10,
+              nextSelector: '.control-destaque-right-d',
+              prevSelector: '.control-destaque-left-d',
+              nextText: '',
+              prevText: '',
+              pager: false,
+              infiniteLoop: false,
+              useCSS: false,
+              moveSlides: 1
+            });
+
+            $('.bx-produtos-1, .bx-produtos-2').bxSlider({
+              minSlides: 1,
+              maxSlides: 3,
+              slideWidth: 360,
+              slideMargin: 10,
+              nextSelector: '.control-destaque-right-p',
+              prevSelector: '.control-destaque-left-p',
+              nextText: '',
+              prevText: '',
+              pager: false,
+              moveSlides: 1,
+              touchEnabled: false,
+              infiniteLoop: false,
+            });
+
+            $(".control-destaque-left-p a:first-child").click(function(){
+              $(".control-destaque-left-p a:nth-child(2)").trigger('click');
+            });
+
+            $(".control-destaque-right-p a:first-child").click(function(){
+              $(".control-destaque-right-p a:nth-child(2)").trigger('click');
+            });
+
+          })
+        </script>
 
         <script>
             var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
