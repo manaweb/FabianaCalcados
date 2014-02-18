@@ -44,6 +44,21 @@
     background-color: #DBDADA;
     display: inline;
 }
+.section{
+	margin-top: 10px;
+}
+.aoLadoTop{
+	display: inline-block;
+	vertical-align: top;
+}
+.aoLadoMiddle{
+	display: inline-block;
+	vertical-align: middle;
+}
+.aoLadoBottom{
+	display: inline-block;
+	vertical-align: bottom;
+}
 
 /* Fim padrões */
 
@@ -52,9 +67,6 @@
 /* Tamanhos para seguir layout */
 
 @media(min-width: 1163px ){ /* para telas medias e grandes(layout padrão) */
-	.topo{
-		width: 992px;
-	}
 	.title-section {
 	    text-align: center;
 	    background-color: #DBDADA;
@@ -84,6 +96,16 @@
 		width: 100%;
 	}
 }
+@media(min-width: 992px){
+	.navbar-collapse.collapse{
+		display: table-cell !important;
+		vertical-align: middle;	
+	}
+	.topo{
+		width: 992px;
+		display: table;
+	}
+}
 
 @media(min-width: 768px){ /* para tablets */
 	.sociais{
@@ -108,6 +130,11 @@
 	}
 	.iframe-face{
 		padding: 0 10px;
+		width: 300px;
+	}
+	.bx-viewport {
+		max-width: 350px !important;
+		margin: auto  !important;
 	}
 }
 
@@ -121,6 +148,7 @@ body{
 	font-family: 'aldo_mt';
 	font-size: 18px;
 	box-shadow: none;
+	filter: none;
 }
 .nav *{
 	color: #000;
@@ -130,6 +158,12 @@ body{
 }
 .nav > li {
     text-align: center;
+}
+.icon-bar {
+    background: #DBDBDA;
+}
+.navbar-toggle {
+    background-color: #000;
 }
 .jumbotron{
 	background: url(../img/fundo-banner.jpg) center repeat-x;
@@ -233,10 +267,8 @@ body{
 }
 .section.facebook{
 	background: url(../img/fundo-section-facebook.jpg) center no-repeat;
-	position: absolute;
 	width: 100%;
-	left: 0;
-	min-height: 516px;
+	height: 516px;
 	display: table;
 }
 .iframe-face{
@@ -251,4 +283,72 @@ body{
 .section.facebook .container{
 	display: table-cell;
 	vertical-align: middle;
+}
+.icon-contato {
+    display: inline-block;
+    width: 23px;
+    height: 24px;
+    background: url(../img/icons-contato.png) no-repeat transparent;
+}
+.icon-contato.icon-tel {
+    background-position-x: -23px;
+}
+.icon-contato.icon-email{
+    background-position-x: -46px;
+}
+.icon-contato.icon-skype{
+    background-position-x: -69px;
+}
+.icon-contato.icon-face{
+    background-position-x: -92px;
+}
+.row.fundo-title {
+	background: none;
+	text-align: left;
+}
+.texto-dado-contato {
+	background: url(../img/fundo-title.png) bottom repeat-x;
+}
+.form-contato .form-control {
+	margin: 20px 0;
+}
+.form-contato .btn {
+	color: #FFF;
+	background-color: #000;
+	padding-left: 25px;
+	padding-right: 25px;
+	border: 0;
+}
+.form-contato .btn:hover {
+	background-color: #865448;
+}
+.back-topo {
+	background: url(../img/btn-back-topo.png) center no-repeat;
+	display: inline-block;
+	width: 28px;
+	height: 28px;
+}
+footer {
+	position: absolute;
+	width: 100%;
+	background: #000;
+	left: 0;
+}
+.nav-bottom li {
+    display: inline-block;
+    padding: 10px;
+    font-family: "aldo_mt";
+    font-size: 18px;
+    list-style: none;
+}
+.nav-bottom a{
+    color: #FFF;
+    text-decoration: none;
+}
+
+/* Página quem somos*/
+
+.section.quem-somos {
+	max-width: 950px;
+	margin: 60px auto 0 auto;
 }
