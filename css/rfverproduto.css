@@ -1,0 +1,316 @@
+#foto{
+	width: 444px !important;
+	border-bottom: 1px dotted #000;
+	padding-bottom: 7px;
+	height: auto;
+}
+
+#foto img{
+	max-height: 430px;
+	max-width: 430px;
+	min-height: 400px;
+	min-width: 400px;
+	width: auto;
+	height: auto; 
+}
+
+#informacoes{
+	/*width: 435px;*/
+	max-height: 535px;
+	height: auto;
+	margin-left: 10px;
+}
+
+.fundoDegradePreco{
+	background: url(../img/b_preco.png) center repeat-x;
+}
+
+.corTitulo{
+	color: #8B6529;
+	font-family: 'Kalinga' !important;
+	font-weight: bold;
+}
+
+#precos{
+	width: auto;
+	display: inline-block;
+}
+.preco{
+	height: 65px;
+	line-height: 65px;
+	padding-left: 10px;
+	font-size: 22px;
+	width: 260px;
+}
+.codigo{
+	color: #777777;
+	font-size: 10px;
+	font-weight: bold;
+	display: block !important;
+	width: 100% !important;
+	padding-left: 0 !important;
+}
+
+#informacoes p, #informacoes label{
+	color: #777777;
+	display: inline-block;
+	vertical-align: middle;
+	font-family: 'Trebuchet MS' !important;
+	font-size: 13px;
+}
+
+#inputNumber p{
+	width: 70px;
+}
+
+.forma{
+	color: #0068C9;
+}
+.cartoes{
+	color: #5A5A5A;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+#parcelas p{
+	height: 40px;
+	line-height: 40px;
+	padding-left: 10px;
+	display: inline-block !important;
+}
+
+#opcoes{
+	background: url(../img/fundo-opcoes.png);
+	padding: 10px;
+	border-bottom: 1px solid #3680D6;
+}
+#opcoes label, #opcoes option, #opcoes select, .select {
+	color: #000 !important;
+	height: 46px;
+	width: 413px;
+}
+
+#opcoes select{
+	width: 430px !important;
+	border: none;
+	background: transparent;
+}
+.select{
+	background: url(../img/seta-select.png) right no-repeat;
+	border: 1px solid #DFDFDF;
+	border-radius: 7px;
+	overflow: hidden;
+}
+#escolherQuantidade{
+	background: #F2F2F2;
+	min-height: 100px;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	padding-bottom: 20px;
+}
+
+#opcoes option{
+	width: 413px !important;
+}
+
+#qtd{
+	width: 37px;
+	height: 40px;
+	border-bottom-left-radius: 7px;
+	border-top-left-radius: 7px;
+	border: 1px solid #CCC;
+	color: #000;
+	font-weight: bold;
+	font-size: 20px;
+	padding-left: 13px;
+	vertical-align: middle;
+	font-family: 'Trebuchet MS' !important;
+}
+.qtdMore, .qtdLess{
+	width: 27px;
+	height: 20px;
+	border-bottom: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+	border-top: 1px solid #CCC;
+}
+
+.qtdMore:active, .qtdLess:active {
+	background-color: #CCC;
+}
+.qtdMore{
+	background: url(../img/seta-cima.png) center no-repeat;
+	border-top-right-radius: 7px;
+}
+.qtdLess{
+	background: url(../img/seta-baixo.png) center no-repeat;
+	border-bottom-right-radius: 7px;
+}
+
+#controls{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: -4px;
+}
+
+
+
+#inputNumber{
+	display: inline-block
+}
+.setorAbas{
+	border: solid 1px #eaeaea;
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.setorAbas p *{
+	color: #000 !important;
+	font-family: 'Trebuchet MS' !important;
+	font-size: 13px;
+}
+.topoAba {
+	background: #F4F4F4;
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #EAEAEA;
+}
+.topoAba p{
+	margin: 0;
+	padding: 0;	
+}
+.aba{
+	color: #000 !important;
+	font-family: 'Trebuchet MS' !important;
+	font-size: 13px;
+	background: #FFF;
+	padding: 17px;
+	font-weight: bold;
+	border-right: 1px solid #EAEAEA;
+	padding: 17px 17px 15px 17px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.conteudoAba {
+	padding: 15px;
+	background-color: #FFF; 
+}
+.conteudoAba *{
+	color: #000;
+}
+
+.voltarTopo {
+	font-family: 'Trebuchet MS' !important;
+	color: #000;
+	font-size: 12px;
+	float: right;
+	cursor: pointer;
+}
+
+.bottomAba {
+	border-top: 1px solid #EAEAEA;
+	height: 37px;
+	line-height: 37px;
+	padding-right: 20px;
+	background: url(../img/bottom-voltar-topo.png) right bottom no-repeat;
+	background-color: #FFF;
+}
+.controlesRelacionados{
+	margin-right: 10px;
+}
+
+.controleDireita:active, .controleEsquerda:active{
+	background: #F0F0F0;
+}
+
+.controleDireita{
+	background: url(../img/right_arrow.png) center no-repeat #FFF;
+	border-radius: 5px;
+	border: 1px solid #EAEAEA;
+	height: 28px;
+	width: 28px;
+	
+	cursor: pointer;
+}
+
+.controleEsquerda{
+	background: url(../img/left-arrow.png) center no-repeat #FFF;
+	border-radius: 5px;
+	border: 1px solid #EAEAEA;
+	
+	height: 28px;
+	width: 28px;
+	
+	cursor: pointer;
+}
+
+.produtoRelacionado {
+	display: inline-block;
+	vertical-align: top;
+	margin: 10px 20px 10px 0px;
+	text-align: center;
+	height: 235px;
+}
+.produtoRelacionado p{
+	font-weight: bold;
+}
+.produtoRelacionado img {
+	border: 1px solid #EAEAEA;
+	padding: 5px;
+	max-width: 180px;
+	max-height: 195px;
+	height: auto;
+	width: auto;
+}
+
+.saibaMais:hover {
+	background: #F0F0F0;
+}
+.saibaMais {
+	color: #000;
+	text-decoration: none;
+	font-family: 'Trebuchet MS' !important;
+	border: 1px solid #EAEAEA;
+	padding: 4px;
+	border-radius: 6px;
+	position: relative;
+	top: 10px;
+	background-color: #FFF;
+}
+
+.abaProdutosRelacionados {
+	/*width: 815px !important;*/
+	margin: auto;
+}
+
+#parcelas{
+	min-height: 100px;
+}
+#miniaturas img {
+	display: inline-block;
+	vertical-align: middle;
+	max-width: 80px !important;
+	height: 80px !important;
+	min-width: 80px !important;
+	min-height: 80px !important;
+	max-height: 80px !important;
+	margin-right: 7px;
+}
+
+.aoLado {
+display: inline-block !important;
+vertical-align: middle;
+float: none;
+margin-top: 15px;
+}
+
+*{
+	overflow: hidden;
+}
+
+body, html{
+	overflow: visible;
+}
+#miniaturas {
+	overflow: visible;
+}

@@ -1,0 +1,104 @@
+table{
+	border-radius: 5px;
+	border: 2px solid #F0F0F0;
+	border-spacing:0;
+    border-collapse:collapse;
+    width: 100%;
+}
+table *{
+	color: #000;
+}
+th{
+	font-weight: bold;
+	background: #F0F0F0;
+}
+th, td{
+	padding: 10px;
+	text-align: center;
+}
+.vUnitario {
+	font-weight: bold !important;
+}
+.produto img{
+	max-width: 50px;
+	max-height: 50px;
+	width: auto;
+	height: auto;
+}
+
+.mais{
+	background: url(../img/mais.png) center no-repeat;
+}
+
+.menos{
+	background: url(../img/less.png) center no-repeat;
+}
+
+.mais, .menos{
+	display: inline-block;
+	vertical-align: middle;
+	width: 15px;
+	height: 15px;
+	background-size: 15px;
+	padding: 6px;
+}
+.qtdCart{
+	display: inline-block;
+	vertical-align: middle;
+	width: 40px;
+	height: 30px;
+	border-radius: 5px;
+	border: 1px solid #CCC;
+	text-align: center;
+	font-weight: bold;
+}
+.totais{
+	border: 2px solid #F0F0F0;
+	margin-top: 20px;
+	width: 300px;
+	text-align: center;
+	float: right;
+}
+.totais p {
+	color: #000;
+}
+.totais input {
+	color: #000;
+	float: right;
+	border: none;
+	width: 150px;
+}
+.subtotal {
+	font-size: 13px;
+}
+.total, .totalGeral{
+	font-size: 20px;
+}
+.totais * {
+	font-weight: bold;
+}
+.escolherMais{
+	color: #08C;
+	display: inline-block;
+	vertical-align: middle;
+}
+.escolherMais:hover{
+	color: #000;
+	text-decoration: underline;
+}
+.fecharPedido{
+	float: right;
+	margin: 50px 10px 5px 0;
+}
+table *, .totais * {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+}
+
+.tdProduto img, .tdProduto span{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.tdProduto{
+	text-align: left;
+}

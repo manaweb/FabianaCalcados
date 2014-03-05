@@ -1,0 +1,158 @@
+[29-Nov-2013 16:28:55] PHP Warning:  PHP Startup: timezonedb: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[29-Nov-2013 16:28:55] PHP Warning:  require(gapi.class.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/rfcasaec/public_html/painel/admin/sys/testesGraficos/teste2.php on line 47
+[29-Nov-2013 16:28:55] PHP Warning:  require(gapi.class.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/rfcasaec/public_html/painel/admin/sys/testesGraficos/teste2.php on line 47
+[29-Nov-2013 16:28:55] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'gapi.class.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rfcasaec/public_html/painel/admin/sys/testesGraficos/teste2.php on line 47
+[29-Nov-2013 16:29:15] PHP Warning:  PHP Startup: timezonedb: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[29-Nov-2013 16:33:09] PHP Warning:  PHP Startup: timezonedb: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[29-Nov-2013 16:33:09] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/rfcasaec/public_html/painel/admin/sys/testesGraficos/teste2.php on line 60
+[29-Nov-2013 16:33:38] PHP Warning:  PHP Startup: timezonedb: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[29-Nov-2013 16:33:41] PHP Fatal error:  Uncaught exception 'Exception' with message 'No valid metric or dimesion called "Date"' in /home/rfcasaec/public_html/painel/admin/sys/gapi.class.php:820
+Stack trace:
+#0 /home/rfcasaec/public_html/painel/admin/sys/testesGraficos/teste2.php(85): gapiReportEntry->__call('getDate', Array)
+#1 /home/rfcasaec/public_html/painel/admin/sys/testesGraficos/teste2.php(85): gapiReportEntry->getDate()
+#2 {main}
+  thrown in /home/rfcasaec/public_html/painel/admin/sys/gapi.class.php on line 820
+[29-Nov-2013 16:35:33] PHP Warning:  PHP Startup: timezonedb: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[29-Nov-2013 16:35:34] PHP Fatal error:  Uncaught exception 'Exception' with message 'GAPI: Failed to request report data. Error: "GDatabadRequestSort key ga:date is not a dimension or metric in this query."' in /home/rfcasaec/public_html/painel/admin/sys/gapi.class.php:218
+Stack trace:
+#0 /home/rfcasaec/public_html/painel/admin/sys/testesGraficos/teste2.php(57): gapi->requestReportData('79572632', 'month', Array, 'date', 'pagePath == /pa...')
+#1 {main}
+  thrown in /home/rfcasaec/public_html/painel/admin/sys/gapi.class.php on line 218
+[29-Nov-2013 16:36:18] PHP Warning:  PHP Startup: timezonedb: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[29-Nov-2013 16:36:21] PHP Fatal error:  Uncaught exception 'Exception' with message 'GAPI: Failed to request report data. Error: "GDatainvalidParameteridsInvalid value 'ga:ga_profile_id'. Values must match the following regular expression: 'ga:[0-9]+'"' in /home/rfcasaec/public_html/painel/admin/sys/gapi.class.php:218
+Stack trace:
+#0 /home/rfcasaec/public_html/painel/admin/sys/testesGraficos/teste2.php(57): gapi->requestReportData('ga_profile_id', Array, Array, 'date', 'pagePath == /pa...')
+#1 {main}
+  thrown in /home/rfcasaec/public_html/painel/admin/sys/gapi.class.php on line 218
+[29-Nov-2013 16:36:45] PHP Warning:  PHP Startup: timezonedb: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[29-Nov-2013 16:38:02] PHP Warning:  PHP Startup: timezonedb: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[29-Nov-2013 16:38:32] PHP Warning:  PHP Startup: timezonedb: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[29-Nov-2013 16:41:51] PHP Warning:  PHP Startup: timezonedb: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[29-Nov-2013 16:42:16] PHP Warning:  PHP Startup: timezonedb: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[29-Nov-2013 16:42:51] PHP Warning:  PHP Startup: timezonedb: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[29-Nov-2013 16:43:36] PHP Warning:  PHP Startup: timezonedb: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[29-Nov-2013 16:44:19] PHP Warning:  PHP Startup: timezonedb: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[29-Nov-2013 16:47:47] PHP Warning:  PHP Startup: timezonedb: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[29-Nov-2013 16:47:47] PHP Warning:  require(gapi.class.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/rfcasaec/public_html/painel/admin/sys/testesGraficos/teste2.php on line 47
+[29-Nov-2013 16:47:47] PHP Warning:  require(gapi.class.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/rfcasaec/public_html/painel/admin/sys/testesGraficos/teste2.php on line 47
+[29-Nov-2013 16:47:47] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'gapi.class.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rfcasaec/public_html/painel/admin/sys/testesGraficos/teste2.php on line 47
+[29-Nov-2013 16:48:15] PHP Warning:  PHP Startup: timezonedb: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[29-Nov-2013 16:48:15] PHP Warning:  require(gapi.class.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/rfcasaec/public_html/painel/admin/sys/testesGraficos/teste2.php on line 47
+[29-Nov-2013 16:48:15] PHP Warning:  require(gapi.class.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/rfcasaec/public_html/painel/admin/sys/testesGraficos/teste2.php on line 47
+[29-Nov-2013 16:48:15] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'gapi.class.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rfcasaec/public_html/painel/admin/sys/testesGraficos/teste2.php on line 47
+[29-Nov-2013 16:48:16] PHP Warning:  PHP Startup: timezonedb: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[29-Nov-2013 16:48:16] PHP Warning:  require(gapi.class.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/rfcasaec/public_html/painel/admin/sys/testesGraficos/teste2.php on line 47
+[29-Nov-2013 16:48:16] PHP Warning:  require(gapi.class.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/rfcasaec/public_html/painel/admin/sys/testesGraficos/teste2.php on line 47
+[29-Nov-2013 16:48:16] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'gapi.class.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rfcasaec/public_html/painel/admin/sys/testesGraficos/teste2.php on line 47
+[29-Nov-2013 16:48:30] PHP Warning:  PHP Startup: timezonedb: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[29-Nov-2013 16:48:33] PHP Fatal error:  Uncaught exception 'Exception' with message 'No valid metric or dimesion called "Uniquepageviews"' in /home/rfcasaec/public_html/painel/admin/sys/gapi.class.php:820
+Stack trace:
+#0 /home/rfcasaec/public_html/painel/admin/sys/testesGraficos/teste2.php(117): gapiReportEntry->__call('getUniquepagevi...', Array)
+#1 /home/rfcasaec/public_html/painel/admin/sys/testesGraficos/teste2.php(117): gapiReportEntry->getUniquepageviews()
+#2 {main}
+  thrown in /home/rfcasaec/public_html/painel/admin/sys/gapi.class.php on line 820
+[29-Nov-2013 16:53:57] PHP Warning:  PHP Startup: timezonedb: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[29-Nov-2013 16:53:57] PHP Warning:  require(gapi.class.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/rfcasaec/public_html/painel/admin/sys/testesGraficos/teste2.php on line 47
+[29-Nov-2013 16:53:57] PHP Warning:  require(gapi.class.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/rfcasaec/public_html/painel/admin/sys/testesGraficos/teste2.php on line 47
+[29-Nov-2013 16:53:57] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'gapi.class.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rfcasaec/public_html/painel/admin/sys/testesGraficos/teste2.php on line 47
+[29-Nov-2013 16:54:12] PHP Warning:  PHP Startup: timezonedb: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[29-Nov-2013 16:55:46] PHP Warning:  PHP Startup: timezonedb: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[29-Nov-2013 16:56:07] PHP Warning:  PHP Startup: timezonedb: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[29-Nov-2013 16:56:25] PHP Warning:  PHP Startup: timezonedb: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[02-Dec-2013 13:28:06] PHP Warning:  PHP Startup: timezonedb: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0

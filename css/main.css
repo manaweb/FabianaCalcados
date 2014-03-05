@@ -1,0 +1,531 @@
+*{
+	overflow-x: hidden;
+}
+h3, li{
+	overflow: hidden !important;
+}
+
+/* ==========================================================================
+   Wesley Ferreira dos Santos custom styles
+   ========================================================================== */
+@font-face {
+    font-family: 'aldo_mt';
+    src: url('../fonts/abalc/abalc-webfont.eot');
+    src: url('../fonts/abalc/abalc-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/abalc/abalc-webfont.woff') format('woff'),
+         url('../fonts/abalc/abalc-webfont.ttf') format('truetype'),
+         url('../fonts/abalc/abalc-webfont.svg#abalcregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+	font-family: 'bauhaus';
+    src: url('../fonts/bauhaus/itc-bauhaus.eot');
+    src: url('../fonts/bauhaus/itc-bauhaus.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bauhaus/itc-bauhaus.woff') format('woff'),
+         url('../fonts/bauhaus/itc-bauhaus.ttf') format('truetype'),
+         url('../fonts/bauhaus/itc-bauhaus.svg#bauhaus') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/* Padrões para usar em todo o site */
+
+.no-padding{
+	padding: 0 !important;
+}
+.no-margin{
+	margin: 0;
+}
+
+.no-border-radius{
+	border-radius: 0 !important;
+}
+.fundo-title{
+	background: url(../img/fundo-title.png) center repeat-x;
+	text-align: center;
+}
+.title-section {
+    text-align: center;	
+    background-color: #DBDADA;
+    display: inline;
+}
+.section{
+	margin-top: 10px;
+}
+.aoLadoTop{
+	display: inline-block;
+	vertical-align: top;
+}
+.aoLadoMiddle{
+	display: inline-block;
+	vertical-align: middle;
+}
+.aoLadoBottom{
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+/* Fim padrões */
+
+
+
+/* Tamanhos para seguir layout */
+
+@media(min-width: 1163px ){ /* para telas medias e grandes(layout padrão) */
+	.title-section {
+	    text-align: center;
+	    background-color: #DBDADA;
+	    display: inline;
+	}
+	.fundo-title{
+		background: url(../img/fundo-title.png) center repeat-x;
+		text-align: center;
+		margin: 15px auto;
+		width: 938px;
+		left: -4px;
+		position: relative;
+	}
+	.fotos-destaque .col-lg-4.hm{
+		width: 270px;
+	}
+	.fotos-destaque .col-lg-4{
+		float: none;
+		display: inline-block;
+		vertical-align: top;
+	}
+	.destaques-controls {
+		text-align: right !important;
+		width: 1035px;
+	}
+	.iframe-face{
+		width: 100%;
+	}
+	.sociais{
+		margin-top: 0px !important;
+	}
+
+	.adoteJa{
+		margin-top: 0 !important;
+	}
+}
+@media(min-width: 992px){
+	.navbar-collapse.collapse{
+		display: table-cell !important;
+		vertical-align: middle;	
+	}
+	.topo{
+		width: 992px;
+		display: table;
+	}
+	.adoteJa{
+		margin-top: 0 !important;
+	}
+}
+
+@media(min-width: 768px){ /* para tablets */
+	.sociais{
+		margin-top: 20px;
+		margin-bottom: 20px !important;
+	}
+	.destaques-controls {
+		text-align: center;
+	}
+	.iframe-face{
+		width: 100%;
+	}
+	.emailValidar{
+		width: 500px;
+	}
+}
+
+@media(max-width: 767px){ /* para celulares e smartphones */
+	.sociais{
+		margin-top: 20px !important;;
+		margin-bottom: 20px !important;
+	}
+	.destaques-controls {
+		text-align: center;
+	}
+	.iframe-face{
+		padding: 0 10px;
+		width: 300px;
+	}
+	.bx-viewport {
+		max-width: 350px !important;
+		margin: auto  !important;
+	}
+}
+
+/* Fim das sobrescrições para tamanhos */
+
+body{
+	background-color: #DBDBDA;
+}
+.navbar{
+	background: #DBDADA;
+	font-family: 'aldo_mt';
+	font-size: 18px;
+	box-shadow: none;
+	filter: none;
+}
+.nav *{
+	color: #000;
+}
+.nav>li>a:hover, .nav>li>a:focus{
+	background: inherit !important;
+}
+.nav > li {
+    text-align: center;
+}
+.icon-bar {
+    background: #DBDBDA;
+}
+.navbar-toggle {
+    background-color: #000;
+}
+.jumbotron{
+	background: url(../img/fundo-banner.jpg) center repeat-x;
+	height: 540px;
+	padding: 0;
+	margin: 50px 0 40px 0;
+}
+.carousel {
+	width: 1163px;
+	height: 595px;
+	margin: -30px auto auto auto;
+	position: absolute;
+	left: 50%;
+	margin-left: -581.5px;
+	box-shadow: 0px 13px 33px #5B5B5A;
+}
+.sociais {
+    width: 240px;  
+    height: 284px;  
+    background-color: #000;
+    margin: auto;
+}
+.sociais *{
+	color: #FFF;
+}
+.sociais h3, .sociais .spanSociais{
+	font-family: 'bauhaus';
+	display: block;
+	padding-left: 40px;
+}
+.sociais h3 {
+    margin: 0;
+    font-size: 60px;
+    margin-bottom: -18px;
+}
+.spanSociais {
+    font-size: 40px;
+}
+.sociais p {
+	padding-left: 15px;
+}
+.fundo-face, .fundo-insta{
+	display: inline-block;
+    width: 82px;
+    height: 82px;
+    background-image: url(../img/sociais.png);
+    background-repeat: no-repeat; 
+    margin-top: 15px;
+}
+.fundo-face {
+    background-position: 0px 0px;
+    margin-left: -10px;
+}
+.fundo-insta{
+	background-position: -82px 0px;	
+	margin-left: 15px;
+}
+.fundo-face:hover {
+	background-position: 0px -82px;
+}
+.fundo-insta:hover {
+	background-position: -82px -82px;
+}
+.fotos-destaque{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.fotos-destaque img {
+    margin: auto;
+}
+.control-destaque-left-d .bx-prev, .control-destaque-right-d .bx-next, .control-destaque-left-p .bx-prev, .control-destaque-right-p .bx-next{
+	background: url(../img/controls-destaque.png) no-repeat;
+	display: inline-block;
+	width: 26px;
+	height: 26px;
+	cursor: pointer;
+}
+.control-destaque-left-d .bx-prev, .control-destaque-left-p .bx-prev{
+	background-position: 0px 0px
+}
+.control-destaque-right-d .bx-next, .control-destaque-right-p .bx-next{
+	background-position: -26px 0px
+}
+
+.bxslider li{
+	display: inline;
+	list-style: none;
+}
+.bx-produtos-1 li, .bx-produtos-2 li{
+	width: 336px;
+	height: 253px;
+	background-color: #FFF;
+	display: inline-block !important;
+	margin-top: 5px;
+}
+.control-destaque-left-p, .control-destaque-right-p {
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+    overflow: hidden;
+}
+.section.facebook{
+	background: url(../img/fundo-section-facebook.jpg) center no-repeat;
+	width: 100%;
+	height: 516px;
+	display: table;
+}
+.iframe-face{
+	border: none;
+	background: #FFF;
+	overflow: hidden;
+	max-width: 968px;
+	height: 483px;
+	min-width: 300px;
+	margin: auto;
+}
+.section.facebook .container{
+	display: table-cell;
+	vertical-align: middle;
+}
+.icon-contato {
+    display: inline-block;
+    width: 23px;
+    height: 24px;
+    background: url(../img/icons-contato.png) no-repeat transparent;
+}
+.icon-contato.icon-tel {
+    background-position-x: -23px;
+}
+.icon-contato.icon-email{
+    background-position-x: -46px;
+}
+.icon-contato.icon-skype{
+    background-position-x: -69px;
+}
+.icon-contato.icon-face{
+    background-position-x: -92px;
+}
+.row.fundo-title {
+	background: none;
+	text-align: left;
+}
+.texto-dado-contato {
+	background: url(../img/fundo-title.png) bottom repeat-x;
+}
+.form-contato .form-control {
+	margin: 20px 0;
+}
+.form-contato .btn {
+	color: #FFF;
+	background-color: #000;
+	padding-left: 25px;
+	padding-right: 25px;
+	border: 0;
+}
+.form-contato .btn:hover {
+	background-color: #865448;
+}
+.back-topo {
+	background: url(../img/btn-back-topo.png) center no-repeat;
+	display: inline-block;
+	width: 28px;
+	height: 28px;
+}
+footer {
+	position: absolute;
+	width: 100%;
+	background: #000;
+	left: 0;
+}
+.nav-bottom li {
+    display: inline-block;
+    padding: 10px;
+    font-family: "aldo_mt";
+    font-size: 18px;
+    list-style: none;
+}
+.nav-bottom a{
+    color: #FFF;
+    text-decoration: none;
+}
+.li-produto{
+	display: inline-block;
+	vertical-align: middle;
+	list-style: none;
+	position: relative;
+	z-index: 9;
+}
+.li-produto:hover > a > img:first-child {
+    opacity: 0.5;
+}
+/*.li-produto:hover > a{
+	background-color: #000;
+}*/
+.li-produto a{
+	display: inline-block;
+	background-color: #000;
+}
+.li-produto *{
+    transition: all 0.5s;
+}
+.li-produto:hover > a > img:nth-child(2){
+    display: block;
+}
+.li-produto img {
+	max-width: 360px;
+	max-height: 253px;
+}
+
+/* Página quem somos*/
+
+.section.quem-somos {
+	max-width: 950px;
+	margin: 60px auto 0 auto;
+}
+
+/*Página de coleção*/
+.lupa-produto {
+	position: absolute;
+	z-index: 99;
+	left: 38%;
+	top: 35%;
+	display: none;
+}
+.img-produto {
+	width: 220px;
+}
+.lupa-colecao.lupa-produto {
+	width: 60px;
+}
+.adoteJa{
+	width:215px;
+	height:auto;
+	padding:10px;
+	background-color:#F5F5F5;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	text-align:left;
+	margin:30px auto;
+}
+#adotejaMenuEsquerda *{
+	color:#333 !important;
+}
+.adoteja ul{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+.adoteja li{
+	width:226px;
+	height:247px;
+	margin-right:8px;
+	margin-bottom:8px;
+	float:left;
+	border:1px solid #ccc;
+}
+.adoteja li img{
+	width:154px;
+	height:174px;
+	margin:5px auto;
+	text-align:center;
+	display:block;
+}
+.adoteJa ul{
+	margin:0px 0px 20px 0;
+	padding:0px;
+}
+.adoteJa li{
+	margin:5px;
+	padding:5px 5px 0px 5px;
+	list-style-type:none;
+	list-style-image:url(../img/list-icon.gif);
+}
+.adoteJa ul > li:nth-child(1), .adoteJa ul > li:first-child{
+	list-style-image:none;
+	list-style-type:none;
+}
+.adoteJa li ul > li{
+	list-style-type:none;
+	list-style-image:url(../img/list-icon.gif) !important;
+}
+.margem-30{
+	margin-top:30px;
+	margin-bottom:30px;
+}
+.adoteJa h2{
+	color:#444;
+	font-size:21px;
+	text-align:left;
+}
+.adoteJa h3{
+	color:#333;
+	font-size:16px;
+	margin-left:-10px;
+	border-bottom:1px solid #DEDEDE;
+	padding-bottom:5px;
+}
+.adoteJa h4{font-size:13px;}
+.adoteJa fieldset{
+	margin:0;
+	padding:0;
+	border:none;
+}
+.adoteJa label{
+	width:100%;
+	font-size:15px;
+}
+.adoteJa .search-input{
+	width:165px;
+	height:25px;
+	border:1px solid #CCC;
+	padding-left:5px;
+	padding-right:31px;
+}
+.submitProdutos{
+	border:none;
+	background:url(../img/icon-lupe.png) center no-repeat;
+	-webkit-background-size:/*@@prefixmycss->No equivalent*/;
+	-moz-background-size:contain;
+	-o-background-size:/*@@prefixmycss->No equivalent*/;
+	background-size:contain;
+	width:31px;height:29px;
+	float:right;
+	position:relative;
+	margin-top:-27px;
+}
+.adoteja fieldset{
+	margin-top:15px;
+	border-top:1px solid #ccc;
+	border-left:0px;
+	border-right:0px;
+	border-bottom:0px;
+	font-size:18px;
+}
+.adoteja legend{
+	font-size:31px;
+}
+#ul-produtos{
+	text-align: center;
+}
+.show-hide {
+margin-left: 10px;
+}
+.glyphicon {
+	overflow: visible !important;
+}

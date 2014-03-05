@@ -1,0 +1,187 @@
+#corpoTodo h3 span {
+	color: #999;
+	padding-left: 5px;
+	vertical-align: baseline;
+	font-size: 17px;
+	font-weight: 200;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+}
+#corpoTodo h3 {
+	color: #000;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+	font-size: 32px;
+	font-weight: 200;
+	cursor: default;
+	vertical-align: baseline;
+	font-size: 27px;
+	font-weight: 200;
+}
+#corpoTodo {
+text-align: center !important;
+}
+.emailValidar{
+	padding-left: 26px;
+	padding-right: 100px;
+	height: 45px !important;
+	margin-top: 10px;
+}
+input[type=email], input[type=text]{
+	border-radius: 5px;
+	border: 1px solid #CCC;
+	color: #000;
+	font-size: 20px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+	height: 27px;
+	padding-left: 5px;
+}
+.continuar {
+	width: 80px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+	position: absolute;
+	margin-top: 10px;
+	margin-left: -81px;
+	height: 44px;
+	color: #000;
+	color: #FFF;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #5BB75B;
+	background-image: -moz-linear-gradient(top, #62c462, #51a351);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#62C462), to(#51A351));
+	background-image: -webkit-linear-gradient(top, #62C462, #51A351);
+	background-image: -o-linear-gradient(top, #62c462, #51a351);
+	background-image: linear-gradient(to bottom, #62C462, #51A351);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff62c462', endColorstr='#ff51a351', GradientType=0);
+	border-color: #51A351 #51A351 #387038;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+	border-radius: 5px;
+}
+
+.infoCad{
+	text-align: left;
+	padding-left: 15px;
+	padding-right: 10px;
+	padding-bottom: 15px;
+	border: 1px solid #EEE;
+	border-radius: 4px;
+	width: 35%;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	background: url(../img/cadeado.png) right no-repeat #FCFCFC;
+}
+.infoCad *{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+}
+.infoCad p{
+	color: #468847;
+	z-index: 2;
+	position: relative;
+}
+
+.infoCad ul{
+	color: #888;
+	z-index: 2;
+	position: relative;
+	padding-left: 15px;
+}
+.infoCad li{
+	list-style: url(../img/icon-ok.png);
+	color: #888;
+}
+
+.pedido *{
+	color: #000;
+	text-align: left;
+}
+.pedido > p{
+	font-weight: bold;
+}
+.cabecalhoOrcamento{
+	background-color: #F0F0F0;
+	padding: 8px 15px;
+	font-weight: bold !important;
+	margin: 5px 0;
+}
+.tdProduto{
+	margin-bottom: 30px;
+}
+.miniCadastro{
+	width: 410px;
+	margin-left: 30px;
+	margin: auto;
+}
+.miniCadastro *{
+	color: #999999;
+	text-align: left;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+}
+.input-text{
+	width: 160px;
+	font-size: 13px !important;
+}
+.input-email{
+	width: 345px;
+	font-size: 13px !important;
+}
+.lblText {
+display: inline-block;
+width: 180px;
+font-size: 13px;
+margin-top: 15px;
+}
+.lblEmail{
+	font-size: 13px;
+}
+.miniCadastro > fieldset{
+	border: 4px solid #E5E5E5;
+	border-radius: 7px;
+	padding-left: 8px;
+	background-color: #FFF;
+}
+.fazerPedido{
+	margin-top: 25px;
+	text-align: center;
+	color: #FFF !important;
+	cursor: pointer;
+}
+.lblSubmit{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+fieldset{
+	margin-bottom: 10px;
+}
+.produto{
+	margin-top: 10px;
+}
+.sucessoEnvio {
+	background-color: #BDDE9C;
+	padding: 10px;
+	font-weight: bold;
+	color: #666 !important;
+	text-align: center !important;
+	font-size: 15px;
+	display: none;
+}
+fieldset fieldset .lblText {
+    width: 165px;
+}
+fieldset fieldset .lblText input {
+    width: 140px;
+}
+.logradouro {
+    width: 329px !important;
+}
+.logradouro input{
+    width: 309px !important;
+}
+#estado {
+	width: 50px;
+}
+fieldset fieldset{
+	margin-top: 20px;
+}
